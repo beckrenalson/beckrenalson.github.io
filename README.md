@@ -25,7 +25,7 @@ The **My Journey** project provides a space for you to learn and practice your w
 - **About Me Page**: A simple page where learners can introduce themselves.
 - **Learning Plan**: A framework for learners to set and track personal goals.
 - **Well-being Plan**: A section dedicated to nurturing self-care and mindfulness.
-- **Self-transformation Programme**:
+- **Self-transformation Pm.bjl,v h ,rogramme**:
   - **Atomic Habits**: Learners can document their learnings from the popular book and worksheets and apply the habit-building techniques into their lives.
   - **Growth Mindset**: A space for students to reflect on adopting a growth mindset for learning and self-improvement.
 
