@@ -1,8 +1,12 @@
 body {
     text-align: center;
-    font-family: ;
+    font-family: Optima;
     bckground-image: url("https://img.freepik.com/free-vector/psychedelic-colorful-eyes-seamless-pattern_8830-673.jpg");
 
+}
+
+h1 {
+    font-family: OldLondon;
 }
 
 .navbar {
@@ -24,4 +28,23 @@ body {
 
 .navbar a:active {
     background-color: aqua;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10;
+}
+
+img {
+    width: 500px;
+    margin: 10;
+}
+
+.box {
+    border: solid;
+    border-radius: 50px;
+    background-color: grey;
+    width: 600px;
+    margin: 10;
 }
