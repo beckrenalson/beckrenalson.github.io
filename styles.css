@@ -1,10 +1,27 @@
 body {
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("https://img.freepik.com/free-vector/psychedelic-colorful-eyes-seamless-pattern_8830-673.jpg");
+    font-family: ;
+    bckground-image: url("https://img.freepik.com/free-vector/psychedelic-colorful-eyes-seamless-pattern_8830-673.jpg");
+
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    margin: 0;
+    padding: 20px;
+    text-decoration: none;
     color: white;
 }
 
-.panel {
-    
+.navbar a:hover {
+    background-color: silver;
+}
+
+.navbar a:active {
+    background-color: aqua;
 }
