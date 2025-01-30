@@ -1,6 +1,8 @@
 body {
     text-align: center;
     font-family: Optima;
+    margin: 0;
+    background-color: gray;
 }
 
 h1 {
@@ -8,20 +10,24 @@ h1 {
 }
 
 .navbar {
-    background-color: black;
+    border-bottom: solid white;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/52d46dd9e4b0f63bcb07fa01/1649219359552-K7G2SQAA797GHIVSE31D/TMH+Banner.png?format=2500w");
+    background-size:cover;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .navbar a {
     float: left;
     margin: 0;
-    padding: 20px;
+    padding: 40px;
     text-decoration: none;
     color: white;
 }
 
 .navbar a:hover {
     background-color: silver;
+    transition-duration: 0.3s;
 }
 
 .navbar a:active {
@@ -29,6 +35,7 @@ h1 {
 }
 
 footer {
+    border-top: solid;
     background-color: black;
     color: white;
     padding: 10;
@@ -37,12 +44,14 @@ footer {
 img {
     width: 500px;
     margin: 10;
+    border-radius: 40px;
 }
 
-.box {
+.container {
+    margin: auto;
     border: solid;
-    border-radius: 50px;
-    background-color: grey;
-    width: 600px;
-    margin: 10;
+    border-radius: 40px;
+    color: white;
+    background-color: black;
+    width: 420px;
 }
