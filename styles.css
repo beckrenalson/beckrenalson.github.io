@@ -1,16 +1,13 @@
 body {
     text-align: center;
     margin: 0;
-    background-color: #dbd8e3 ;
+    background-color: #dbd8e3;
 }
 
-h1, .navbar {
+h1,
+.navbar {
     font-family: OldLondon;
     font-size: 40px;
-}
-
-h2 {
-    font-family: decipher personal use;
 }
 
 .navbar {
@@ -30,7 +27,8 @@ h2 {
 }
 
 .navbar a:hover {
-    background-color: silver;
+    background-color: #dbd8e3;
+    color: #5c5470;
     transition-duration: 0.3s;
 }
 
@@ -45,6 +43,7 @@ img {
     width: 300px;
     margin: 10;
     border-radius: 20px;
+    display: flex;
 }
 
 .container {
@@ -57,8 +56,7 @@ img {
     height: fit-content;
 }
 
-
-.dunners{
+.dunners {
     color: black;
     font-size: 60px;
 }
