@@ -7,7 +7,7 @@ body {
 h1,
 .navbar {
     font-family: OldLondon;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .navbar {
@@ -21,7 +21,7 @@ h1,
 .navbar a {
     float: left;
     margin: 0;
-    padding: 40px;
+    padding: 20px;
     text-decoration: none;
     color: white;
 }
@@ -59,4 +59,9 @@ img {
 .dunners {
     color: black;
     font-size: 60px;
+}
+
+.fl {
+    width: 100px;
+    position:fixed;
 }
