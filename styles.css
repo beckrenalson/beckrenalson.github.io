@@ -6,40 +6,41 @@
 body {
     text-align: center;
     margin: 0;
-    background-color: #4C5B61;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
 }
 
-h1,
-.navbar {
+h1 {
     font-family: OldLondon;
     font-size: 40px;
 }
 
 .navbar {
-    border-bottom: solid white;
-    background-color: #2C423F;
+    background-color: hsl(0, 0%, 12%);
     overflow: hidden;
     display: flex;
 
 }
 
 .navbar a {
-    margin: 0;
     padding: 20px;
     text-decoration: none;
     color: white;
 }
 
 .navbar a:hover {
-    background-color: #dbd8e3;
-    color: #5c5470;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
     transition-duration: 0.3s;
 }
 
+.active {
+    background-color: hsl(0, 0%, 20%);
+}
+
 footer {
-    border-top: solid;
-    background-color: #2C423F;
+
+    background-color: hsl(0, 0%, 12%);
     padding: 10;
     color: white;
 }
@@ -48,7 +49,13 @@ footer {
 img {
     width: 400px;
     border-radius: 20px;
-    margin: 10px;
+    margin: 20px;
+}
+
+.content > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
 }
 
 .container {
@@ -56,14 +63,9 @@ img {
     height: fit-content;
     margin: auto;
     border-radius: 20px;
-    background-color: #829191;
+    background-color: hsl(0, 0%, 12%);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
-
-.dunners {
-    color: black;
-    font-size: 60px;
 }
 
 .fl {
@@ -71,17 +73,36 @@ img {
     position: fixed;
 }
 
+.button {
+    display: inline-block;
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    transition-duration: 0.3s;
+}
+
 .content {
+    color: white;
     padding: 1px 30px 1px 30px;
     margin: auto;
     border-radius: 20px;
-    background-color: #829191;
+    background-color: hsl(0, 0%, 12%);
     width: fit-content;
     height: fit-content;
 }
 
+
 @media only screen and (max-width: 600px) {
-    .container {
+    .container, content {
         display: flex;
         flex-direction: column;
     }
