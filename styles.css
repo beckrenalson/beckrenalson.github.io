@@ -17,9 +17,7 @@ h1 {
 
 .navbar {
     background-color: hsl(0, 0%, 12%);
-    overflow: hidden;
     display: flex;
-
 }
 
 .navbar a {
@@ -45,14 +43,13 @@ footer {
     color: white;
 }
 
-
 img {
-    width: 400px;
+    width: 300px;
     border-radius: 20px;
     margin: 20px;
 }
 
-.content > img {
+.pic > img {
     width: 200px;
     height: 200px;
     border-radius: 100px;
@@ -61,16 +58,10 @@ img {
 .container {
     width: fit-content;
     height: fit-content;
-    margin: auto;
     border-radius: 20px;
     background-color: hsl(0, 0%, 12%);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
-
-.fl {
-    width: 100px;
-    position: fixed;
 }
 
 .button {
@@ -93,17 +84,22 @@ img {
 .content {
     color: white;
     padding: 1px 30px 1px 30px;
-    margin: auto;
     border-radius: 20px;
     background-color: hsl(0, 0%, 12%);
     width: fit-content;
     height: fit-content;
 }
 
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 @media only screen and (max-width: 600px) {
-    .container, content {
+    .container {
         display: flex;
         flex-direction: column;
+        
     }
 }
