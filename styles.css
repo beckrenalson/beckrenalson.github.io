@@ -5,7 +5,7 @@
 
 body {
     text-align: center;
-    margin: 0;
+    margin: 0px;
     background-color: hsl(0, 0%, 8%);
     font-family: Inter;
 }
@@ -39,8 +39,14 @@ h1 {
 footer {
 
     background-color: hsl(0, 0%, 12%);
-    padding: 10;
+    padding: 10px;
     color: white;
+}
+
+.button > img {
+    width: 40px;
+    margin: 4;
+    border-radius: 0px;
 }
 
 img {
@@ -68,7 +74,6 @@ img {
     display: inline-block;
     width: 80%;
     margin: 5px;
-    padding: 10px;
     border-radius: 8px;
     background-color: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 100%);
@@ -93,13 +98,13 @@ img {
 .flexbox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
 }
 
 @media only screen and (max-width: 600px) {
     .container {
         display: flex;
         flex-direction: column;
-        
     }
 }
